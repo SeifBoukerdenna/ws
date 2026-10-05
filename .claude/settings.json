@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(just *)",
+      "Bash(uv *)",
+      "Bash(git *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean *)",
+      "Bash(uv add *)",
+      "Bash(uv remove *)",
+      "Bash(uv pip *)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Read(!.env.example)",
+      "Edit(.env*)",
+      "Edit(!.env.example)"
+    ]
+  }
+}
